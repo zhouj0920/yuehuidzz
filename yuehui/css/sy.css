@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+video {
+    object-fit: contain;
+}
+.wrap {
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+}
+.wrap video {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    height: 1080px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 245px;
+}
+.jr {
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}
+.headline {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 850px;
+    height: 360px;
+    margin: -50px 0 0 -425px;
+}
+.headline a{
+    position: absolute;
+    display: block;
+    width: 194px;
+    height: 53px;
+    bottom: 6px;
+}
+.headline .android{
+    left: 231px;
+}
+.headline .ios{
+    right: 217px;
+}
+.nav {
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    height: 1032px;
+}
+.nav1 {
+    position: absolute;
+    top: -27px;
+    width: 1920px;
+    height: 1060px;
+    background-image: url(../images/04.png);
+}
+.nav1-t{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 100px;
+    background: url(../images/jinglintu.png) no-repeat -5px -326px;  
+}
+.nav1-t li {
+    cursor: pointer;
+}
+.nav1-t .li01 {
+    position: absolute;
+    left: 372px;
+    width: 180px;
+    height: 100px; 
+}
+.nav1-t .li01:hover{
+    background: url(../images/jinglintu.png) no-repeat -377px -67px;
+}
+.nav1-t .li02{
+    position: absolute;
+    left: 582px;
+    width: 180px;
+    height: 100px;
+}
+.nav1-t .li02:hover{
+    background: url(../images/jinglintu.png) no-repeat -587px -67px;
+}
+.nav1-t .li03{
+    position: absolute;
+    left: 802px;
+    width: 160px;
+    height: 100px;
+}
+.nav1-t .li03:hover{
+    background: url(../images/jinglintu.png) no-repeat -807px -67px;
+}
+.nav1-t .li04{
+    position: absolute;
+    right: 750px;
+    width: 170px;
+    height: 100px;
+}
+.nav1-t .li04:hover{
+    background: url(../images/jinglintu.png) no-repeat -1005px -67px;
+}
+.nav1-t .li05{
+    position: absolute;
+    right: 554px;
+    width: 150px;
+    height: 100px;
+}
+.nav1-t .li05:hover{
+    background: url(../images/jinglintu.png) no-repeat -1221px -67px;
+}
+.nav1-t .li06{
+    position: absolute;
+    right: 352px;
+    width: 150px;
+    height: 100px;
+}
+.nav1-t .li06:hover{
+    background: url(../images/jinglintu.png) no-repeat -1423px -67px;
+}
+.nav1-b .img02 {
+    position: absolute;
+    bottom: 3px;
+}
+.nav1-b .img03 {
+    position: absolute;
+    top: 312px;
+    right: 326px;
+}
+.jineng {
+    position: absolute;
+    bottom: -110px;
+    right: 236px;
+    width: 560px;
+    height: 500px;
+}
+.jineng li {
+    float: left;
+    width: 113px;
+    height: 113px;
+    cursor: pointer;
+}
+.beiban {
+    position: absolute;
+    bottom: 185px;
+    right: 74px;
+    width: 529px;
+    height: 189px;
+    background-image: url(../images/beiban.png);
+}
+.beiban img{
+    width: 240px;
+    margin: 28px 0 0 25px;
+}
+.beiban h3 {
+    float: right;
+    width: 220px;
+    margin: 22px 32px 0 0;
+    border-bottom: 1px solid #fff;
+    font-size: 25px;
+    color: #fff;
+}
+.beiban p{
+    position: absolute;
+    width: 220px;
+    font-size :14px;
+    right: 32px;
+    top: 58px;
+    color :#fff;
+}
+.beiban>div {
+    display: none;
+}
+.beiban .block{
+    display: block;
+}
+.main {
+    position: relative;
+    height: 1014px;
+    margin: 0 auto;
+    background: url(../images/beijing.jpg) no-repeat center; 
+    overflow: hidden;
+}
+.main-li {
+    position: relative;
+    margin: 50px auto 0;
+    width: 1202px;
+    height: 884px;
+    background: url(../images/05.png) no-repeat;
+    overflow: hidden;
+}
+.main-li ul{
+    width: 1172px;
+    height: 400px;
+    margin: 148px auto 0;
+    overflow: hidden;
+}
+.main-li ul li{
+    position: relative;
+    float: left;
+    width: 128px;
+    height: 400px;
+}
+.main-li ul li .t1{
+    position: absolute;
+    top: 0;
+    width: 128px;
+    height: 400px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.main>a{
+    position: absolute;
+    bottom: 82px;
+    left: 50%;
+    margin-left: -85px;
+    display: block;
+    width: 170px;
+    height: 50px;
+}
+.main>img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -32px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 184px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    line-height: 30px;
+    background: #000;
+    padding: 50px 0;
+}
